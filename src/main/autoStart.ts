@@ -20,8 +20,7 @@ function makeAutoStartLinux(): AutoStart {
     const dir = join(configDir, "autostart");
     const file = join(dir, "schat.desktop");
 
-    // IM STUPID
-    const legacyName = join(dir, "Soncresity Industries.desktop");
+    const legacyName = join(dir, "SChat.desktop");
     if (existsSync(legacyName)) renameSync(legacyName, file);
 
     // "Quoting must be done by enclosing the argument between double quotes and escaping the double quote character,
@@ -35,8 +34,8 @@ function makeAutoStartLinux(): AutoStart {
             const desktopFile = stripIndent`
                 [Desktop Entry]
                 Type=Application
-                Name=schat
-                Comment=schat autostart script
+                Name=SChat
+                Comment=SChat autostart script
                 Exec=${commandLine}
                 StartupNotify=false
                 Terminal=false

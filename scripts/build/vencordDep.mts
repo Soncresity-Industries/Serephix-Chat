@@ -7,12 +7,12 @@
 import { globalExternalsWithRegExp } from "@fal-works/esbuild-plugin-global-externals";
 
 const names = {
-    webpack: "Vencord.Webpack",
-    "webpack/common": "Vencord.Webpack.Common",
-    utils: "Vencord.Util",
-    api: "Vencord.Api",
-    "api/settings": "Vencord",
-    components: "Vencord.Components"
+    webpack: "SChat.Webpack",
+    "webpack/common": "SChat.Webpack.Common",
+    utils: "SChat.Util",
+    api: "SChat.Api",
+    "api/settings": "Serephix Chat",
+    components: "SChat.Components"
 };
 
 export default globalExternalsWithRegExp({

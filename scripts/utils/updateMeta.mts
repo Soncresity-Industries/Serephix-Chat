@@ -43,7 +43,7 @@ function generateDescription(description: string, descriptionNode: Element) {
     }
 }
 
-const latestReleaseInformation = await fetch("https://api.github.com/repos/Soncresity Industries/schat/releases/latest", {
+const latestReleaseInformation = await fetch("https://api.github.com/repos/Soncresity-Industries/Serephix-Chat/releases/latest", {
     headers: {
         Accept: "application/vnd.github+json",
         "X-Github-Api-Version": "2022-11-28"

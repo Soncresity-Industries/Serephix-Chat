@@ -13,7 +13,7 @@ import { SplashProps } from "shared/browserWinProperties";
 import { ICON_PATH, VIEW_DIR } from "shared/paths";
 
 import { autoStart } from "./autoStart";
-import { DATA_DIR } from "./constants";
+import { DATA_DIR, PORTABLE } from "./constants";
 import { createWindows, getAccentColor } from "./mainWindow";
 import { Settings, State } from "./settings";
 import { makeLinksOpenExternally } from "./utils/makeLinksOpenExternally";
@@ -59,7 +59,7 @@ export function createFirstLaunchTour() {
             if (color) {
                 Settings.store.trayColor = color.slice(1);
             } else {
-                Settings.store.trayColor = "F6BFAC";
+                Settings.store.trayColor = "A5C5FD";
             }
         });
         Settings.store.minimizeToTray = !!data.minimizeToTray;
@@ -68,7 +68,9 @@ export function createFirstLaunchTour() {
         if (data.autoStart) autoStart.enable();
 
         if (data.importSettings) {
-            const from = join(app.getPath("userData"), "..", "Soncresity Industries", "settings");
+            const from = PORTABLE
+                ? join(app.getPath("assets"), "..", "Soncresity Industries", "settings")
+                : join(app.getPath("userData"), "..", "Soncresity Industries", "settings");
             const to = join(DATA_DIR, "settings");
             try {
                 const files = readdirSync(from);
