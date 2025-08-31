@@ -44,8 +44,8 @@ export const VesktopNative = {
         showItemInFolder: (path: string) => invoke<void>(IpcEvents.SHOW_ITEM_IN_FOLDER, path),
         selectTrayIcon: (iconName: string) =>
             invoke<"cancelled" | "invalid" | string>(IpcEvents.SELECT_TRAY_ICON, iconName),
-        getSoncresity IndustriesDir: () => sendSync<string | undefined>(IpcEvents.GET_VENCORD_DIR),
-        selectSoncresity IndustriesDir: (value?: null) =>
+        getSoncresityIndustriesDir: () => sendSync<string | undefined>(IpcEvents.GET_VENCORD_DIR),
+        selectSoncresityIndustriesDir: (value?: null) =>
             invoke<"cancelled" | "invalid" | "ok">(IpcEvents.SELECT_VENCORD_DIR, value),
         selectImagePath: (value?: null) => invoke<"cancelled" | "invalid" | "ok">(IpcEvents.SELECT_IMAGE_PATH, value)
     },

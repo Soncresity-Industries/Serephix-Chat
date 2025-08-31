@@ -38,15 +38,15 @@ VesktopNative.voice.onToggleSelfMute(() => VoiceActions.toggleSelfMute());
 VesktopNative.voice.onToggleSelfDeaf(() => VoiceActions.toggleSelfDeaf());
 
 // TODO: remove soon
-const Soncresity IndustriesDir = "Soncresity IndustriesDir" as keyof typeof Settings.store;
-if (Settings.store[Soncresity IndustriesDir]) {
+const SoncresityIndustriesDir = "Soncresity IndustriesDir" as keyof typeof Settings.store;
+if (Settings.store[SoncresityIndustriesDir]) {
     onceReady.then(() =>
         setTimeout(
             () =>
                 Alerts.show({
                     title: "Custom Soncresity Industries Location",
                     body: "Due to security hardening changes in schat, your custom Soncresity Industries location had to be reset. Please configure it again in the settings.",
-                    onConfirm: () => delete Settings.store[Soncresity IndustriesDir]
+                    onConfirm: () => delete Settings.store[SoncresityIndustriesDir]
                 }),
             5000
         )

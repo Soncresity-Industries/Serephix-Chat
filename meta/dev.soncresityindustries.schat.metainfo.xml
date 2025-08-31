@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component type="desktop-application">
   <!--Created with jdAppStreamEdit 7.1-->
-  <id>io.github.Soncresity Industries.schat</id>
+  <id>dev.soncresityindustries.schat</id>
   <name>schat</name>
   <summary>Snappier Discord app with Soncresity Industries</summary>
   <developer_name>Soncresity Industries Contributors</developer_name>
-  <launchable type="desktop-id">io.github.Soncresity Industries.schat.desktop</launchable>
+  <launchable type="desktop-id">dev.soncresityindustries.schat.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   <project_group>Soncresity Industries</project_group>
@@ -143,7 +143,7 @@
   </content_rating>
   <keywords>
     <keyword>Discord</keyword>
-    <keyword>schat</keyword>
+    <keyword>SChat</keyword>
     <keyword>Soncresity Industries</keyword>
     <keyword>Vencord</keyword>
     <keyword>Vesktop</keyword>

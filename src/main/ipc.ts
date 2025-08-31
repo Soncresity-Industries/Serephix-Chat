@@ -125,11 +125,11 @@ handle(IpcEvents.SPELLCHECK_ADD_TO_DICTIONARY, (e, word: string) => {
     e.sender.session.addWordToSpellCheckerDictionary(word);
 });
 
-handleSync(IpcEvents.GET_VENCORD_DIR, e => (e.returnValue = State.store.Soncresity IndustriesDir));
+handleSync(IpcEvents.GET_VENCORD_DIR, e => (e.returnValue = State.store.SoncresityIndustriesDir));
 
 handle(IpcEvents.SELECT_VENCORD_DIR, async (_e, value?: null) => {
     if (value === null) {
-        delete State.store.Soncresity IndustriesDir;
+        delete State.store.SoncresityIndustriesDir;
         return "ok";
     }
 
@@ -141,7 +141,7 @@ handle(IpcEvents.SELECT_VENCORD_DIR, async (_e, value?: null) => {
     const dir = res.filePaths[0];
     if (!isValidVencordInstall(dir)) return "invalid";
 
-    State.store.Soncresity IndustriesDir = dir;
+    State.store.SoncresityIndustriesDir = dir;
 
     return "ok";
 });

@@ -16,7 +16,8 @@ export const PORTABLE =
     !existsSync(join(schatDir, "Uninstall schat.exe"));
 
 export const DATA_DIR =
-    process.env.Soncresity Industries_USER_DATA_DIR || (PORTABLE ? join(schatDir, "Data") : join(app.getPath("userData")));
+    process.env.SoncresityIndustries_USER_DATA_DIR ||
+    (PORTABLE ? join(schatDir, "Data") : join(app.getPath("userData")));
 
 mkdirSync(DATA_DIR, { recursive: true });
 
@@ -32,7 +33,9 @@ export const VENCORD_THEMES_DIR = join(DATA_DIR, "themes");
 // as otherwise "DATA_DIR" (which is used by ./settings) will be uninitialised
 export const VENCORD_DIR = (() => {
     const { State } = require("./settings") as typeof import("./settings");
-    return State.store.Soncresity IndustriesDir ? join(State.store.Soncresity IndustriesDir, "schat") : join(SESSION_DATA_DIR, "Soncresity Industries.asar");
+    return State.store.SoncresityIndustriesDir
+        ? join(State.store.SoncresityIndustriesDir, "schat")
+        : join(SESSION_DATA_DIR, "SoncresityIndustries.asar");
 })();
 
 export const USER_AGENT = `schat/${app.getVersion()} (https://soncresityindustries.vercel.app/)`;

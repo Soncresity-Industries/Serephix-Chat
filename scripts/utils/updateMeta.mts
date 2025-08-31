@@ -50,7 +50,7 @@ const latestReleaseInformation = await fetch("https://api.github.com/repos/Soncr
     }
 }).then(res => res.json());
 
-const metaInfo = await fs.readFile("./meta/io.github.Soncresity Industries.schat.metainfo.xml", "utf-8");
+const metaInfo = await fs.readFile("./meta/dev.soncresityindustries.schat.metainfo.xml", "utf-8");
 
 const parser = new DOMParser().parseFromString(metaInfo, "text/xml");
 
@@ -90,4 +90,4 @@ const output = xmlFormat(new XMLSerializer().serializeToString(parser), {
     indentation: "  "
 });
 
-await fs.writeFile("./meta/io.github.Soncresity Industries.schat.metainfo.xml", output, "utf-8");
+await fs.writeFile("./meta/dev.soncresityindustries.schat.metainfo.xml", output, "utf-8");

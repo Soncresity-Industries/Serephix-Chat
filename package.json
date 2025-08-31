@@ -64,7 +64,7 @@
         "pnpm": ">=8"
     },
     "build": {
-        "appId": "io.github.Soncresity Industries.schat",
+        "appId": "dev.soncresityindustries.schat",
         "artifactName": "${productName}-${os}-${arch}.${ext}",
         "productName": "schat",
         "files": [

@@ -45,7 +45,7 @@ export function setBadgeCount(count: number) {
                 signature: "sa{sv}",
                 body: [
                     process.env.container === "1"
-                        ? "application://io.github.Soncresity Industries.schat.desktop" // flatpak handling
+                        ? "application://dev.soncresityindustries.schat.desktop" // flatpak handling
                         : "application://schat.desktop",
                     [
                         ["count", ["x", count === -1 ? 0 : count]],

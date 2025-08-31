@@ -51,21 +51,21 @@ function openDeveloperOptionsModal(settings: Settings) {
 }
 const VencordLocationPicker: SettingsComponent = ({ settings }) => {
     const forceUpdate = useForceUpdater();
-    const Soncresity IndustriesDir = VesktopNative.fileManager.getSoncresity IndustriesDir();
+    const SoncresityIndustriesDir = VesktopNative.fileManager.getSoncresityIndustriesDir();
 
     return (
         <>
             <Forms.FormText>
                 Soncresity Industries files are loaded from{" "}
-                {Soncresity IndustriesDir ? (
+                {SoncresityIndustriesDir ? (
                     <a
                         href="about:blank"
                         onClick={e => {
                             e.preventDefault();
-                            VesktopNative.fileManager.showItemInFolder(Soncresity IndustriesDir!);
+                            VesktopNative.fileManager.showItemInFolder(SoncresityIndustriesDir!);
                         }}
                     >
-                        {Soncresity IndustriesDir}
+                        {SoncresityIndustriesDir}
                     </a>
                 ) : (
                     "the default location"
@@ -75,7 +75,7 @@ const VencordLocationPicker: SettingsComponent = ({ settings }) => {
                 <Button
                     size={Button.Sizes.SMALL}
                     onClick={async () => {
-                        const choice = await VesktopNative.fileManager.selectSoncresity IndustriesDir();
+                        const choice = await VesktopNative.fileManager.selectSoncresityIndustriesDir();
                         switch (choice) {
                             case "cancelled":
                                 break;
@@ -104,7 +104,7 @@ const VencordLocationPicker: SettingsComponent = ({ settings }) => {
                     size={Button.Sizes.SMALL}
                     color={Button.Colors.RED}
                     onClick={async () => {
-                        await VesktopNative.fileManager.selectSoncresity IndustriesDir(null);
+                        await VesktopNative.fileManager.selectSoncresityIndustriesDir(null);
                         forceUpdate();
                     }}
                 >

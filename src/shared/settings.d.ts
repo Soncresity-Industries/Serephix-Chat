@@ -67,5 +67,5 @@ export interface State {
 
     steamOSLayoutVersion?: number;
 
-    Soncresity IndustriesDir?: string;
+    SoncresityIndustriesDir?: string;
 }

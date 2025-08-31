@@ -1,12 +1,12 @@
 # schat [<img src="/static/icon.png" width="225" align="right" alt="schat">](https://soncresityindustries.vercel.app/)
 
-[![Soncresity Industries](https://img.shields.io/badge/Soncresity Industries-grey?style=flat)](https://github.com/Soncresity Industries/Soncresity Industries)
+[![Soncresity Industries](https://img.shields.io/badge/Soncresity Industries-grey?style=flat)](<https://github.com/Soncresity> Industries/Soncresity Industries)
 [![Tests](https://soncresityindustries.vercel.app//actions/workflows/test.yml/badge.svg?branch=main)](https://soncresityindustries.vercel.app//actions/workflows/test.yml)
-[![Discord](https://img.shields.io/discord/1173279886065029291.svg?color=768AD4&label=Discord&logo=discord&logoColor=white)](https://Soncresity Industries.org/discord)
+[![Discord](https://img.shields.io/discord/1173279886065029291.svg?color=768AD4&label=Discord&logo=discord&logoColor=white)](<https://Soncresity> Industries.org/discord)
 
 schat is a fork of [Vesktop](https://github.com/Vencord/Vesktop).
 
-You can join our [discord server](https://Soncresity Industries.org/discord) for commits, changes, chat or even support.<br></br>
+You can join our [discord server](<https://Soncresity> Industries.org/discord) for commits, changes, chat or even support.<br></br>
 
 ## Main features
 
@@ -56,7 +56,7 @@ These work on both M Series and Intel Series Macs
 
 [![schat](https://img.shields.io/badge/AVAILABLE_ON_THE_AUR-333232?style=for-the-badge&logo=arch-linux&logoColor=0F94D2&labelColor=%23171717)](https://aur.archlinux.org/packages?O=0&K=schat)
 <br>
-<a href="https://flathub.org/apps/io.github.Soncresity Industries.schat">
+<a href="https://flathub.org/apps/dev.soncresityindustries.schat">
   <img src="https://flathub.org/api/badge?svg" alt="Download on Flathub" style="width:220px; height:auto;">
 </a>
 
