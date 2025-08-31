@@ -3,122 +3,34 @@
   <!--Created with jdAppStreamEdit 7.1-->
   <id>dev.soncresityindustries.schat</id>
   <name>schat</name>
-  <summary>Snappier Discord app with Soncresity Industries</summary>
-  <developer_name>Soncresity Industries Contributors</developer_name>
+  <summary>The official Serephix chat app.</summary>
+  <developer_name>Soncresity Industries</developer_name>
   <launchable type="desktop-id">dev.soncresityindustries.schat.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0</project_license>
+  <project_license>All Rights Reserved</project_license>
   <project_group>Soncresity Industries</project_group>
   <description>
-    <p>schat is a cross-platform Vesktop Fork desktop app aiming to give you extra plugins but still give you a snappier Discord experience, with Soncresity Industries pre-installed.</p>
-    <p>Which comes bundled with Venmic, a purpose-built library to provide functioning audio screenshare.</p>
+    <p>The official Serephix chat app.</p>
   </description>
   <screenshots>
-    <screenshot type="default">
-      <caption>Soncresity Industries settings page and about window open</caption>
-      <image type="source">https://files.catbox.moe/4medht.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>A dialog showing screenshare options</caption>
-      <image type="source">https://files.catbox.moe/22q8fx.png</image>
-    </screenshot>
     <screenshot>
       <caption>A screenshot of a Discord server</caption>
       <image type="source">https://files.catbox.moe/a2rz3y.png</image>
     </screenshot>
   </screenshots>
   <releases>
-      <release version="v2.1.6" date="2025-08-07" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.1.6</url>
+      <release version="v0.0.1" date="2025-08-31" type="stable">
+      <url>https://soncresityindustries.vercel.app/</url>
       <description>
         <p>What's Changed:</p>
-        <p>• upgrade to all changes in vesktop v1.5.8</p>
+        <p>• First version 0.0.1</p>
       </description>
-    </release>
-    <release version="v2.1.5" date="2025-06-25" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.1.5</url>
-      <description>
-        <p>What's Changed:</p>
-        <p>• upgrade to all changes in vesktop v1.5.7</p>
-        <p>• fix spellcheck</p>
-      </description>
-    </release>
-    <release version="v2.1.4" date="2025-05-14" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.1.4</url>
-      <description>
-        <p>What's Changed:</p>
-        <p>• fix windows decorations actions patch</p>
-      </description>
-    </release>
-    <release version="v2.1.3" date="2025-05-11" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.1.3</url>
-      <description>
-        <p>What's Changed:</p>
-        <p>• again alot of fixes, improvements and update PRs</p>
-        <p>• all of V1.5.6 in Vesktop</p>
-      </description>
-    </release>
-    <release version="v2.1.2" date="2025-02-08" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.1.2</url>
-      <description>
-        <p>What's Changed:</p>
-        <p>• alot of fixes, improvements and update PRs</p>
-        <p>• all of V1.5.5 in Vesktop</p>
-      </description>
-    </release>
-    <release version="v2.1.1" date="2024-11-07" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.1.1</url>
-      <description/>
-    </release>
-    <release version="v2.1.0" date="2024-11-01" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.1.0</url>
-      <description/>
-    </release>
-    <release version="v2.0.9" date="2024-09-10" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.9</url>
-      <description/>
-    </release>
-    <release version="v2.0.8" date="2024-08-17" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.8</url>
-      <description/>
-    </release>
-    <release version="v2.0.7" date="2024-08-02" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.7</url>
-      <description/>
-    </release>
-    <release version="v2.0.6" date="2024-07-20" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.6</url>
-      <description/>
-    </release>
-    <release version="v2.0.5" date="2024-07-19" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.5</url>
-      <description/>
-    </release>
-    <release version="v2.0.4" date="2024-07-19" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.4</url>
-      <description/>
-    </release>
-    <release version="v2.0.3" date="2024-07-19" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.3</url>
-      <description/>
-    </release>
-    <release version="v2.0.2" date="2024-07-16" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.2</url>
-      <description/>
-    </release>
-    <release version="v2.0.1" date="2024-07-15" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.1</url>
-      <description/>
-    </release>
-    <release version="v2.0.0" date="2024-07-13" type="stable">
-      <url>https://soncresityindustries.vercel.app//releases/tag/v2.0.0</url>
-      <description/>
     </release>
   </releases>
   <url type="homepage">https://soncresityindustries.vercel.app/</url>
-  <url type="bugtracker">https://soncresityindustries.vercel.app//issues</url>
-  <url type="help">https://soncresityindustries.vercel.app//issues</url>
-  <url type="donation">https://github.com/sponsors/Vendicated</url>
+  <url type="bugtracker">https://soncresityindustries.vercel.app/</url>
+  <url type="help">https://soncresityindustries.vercel.app/</url>
+  <url type="donation">https://soncresityindustries.vercel.app/</url>
   <url type="vcs-browser">https://soncresityindustries.vercel.app/</url>
   <categories>
     <category>InstantMessaging</category>
